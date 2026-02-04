@@ -1,21 +1,20 @@
 [
-    {
-        "id": 1,
-        "name": "Loki",
-        "birthyear": 2018,
-        "gender": "Male",
-        "color": "brown/beige",
-        "eyes": "Green",
-        "breed": "Maine Coon",
-        "spayed": False
-    }
-    {
-        "id": 2,
-        "name": "Joss",
-        "birthyear": 2000,
-        "gender": "Male",
-        "color": "white/brown",
-        "eyes": "Green",
-        "spayed": True
-    }
+  {
+    "id": 2,
+    "name": "Joss",
+    "birthyear": 2000,
+    "gender": "Male",
+    "color": "white/brown",
+    "eyes": "Green",
+    "spayed": true
+  },
+  {
+    "name": "545",
+    "birthyear": 555,
+    "gender": "Female",
+    "color": "dgdfg",
+    "eyes": "dfgdfg",
+    "spayed": false,
+    "id": 3
+  }
 ]
