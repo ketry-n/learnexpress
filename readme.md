@@ -1,4 +1,2 @@
-# Learnexpress
-
-node learn.js
-ctrl + c - close
+node learn.js ctrl + c - close
+npm run dev
