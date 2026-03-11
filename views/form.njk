@@ -2,7 +2,7 @@
 {% block title %}Form{% endblock %}
 {% block content %}
   <h1>Form</h1>
-  <form action="/answers">
+  <form action="/answers" method="POST">
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
       <input name="name" type="text" class="form-control" id="name" placeholder="Write your name">
@@ -53,11 +53,11 @@
       <label for="fruit" class="form-label">Favorite fruit</label>
       <select name="fruit" id="fruit" class="form-select">
         <option disabled selected>Select fruit</option>
-        <option>Raspberry</option>
-        <option>Mango</option>
-        <option>Passionfruit</option>
-        <option>Blueberry</option>
+        <option>Banana</option>
         <option>Cherry</option>
+        <option>Pineapple</option>
+        <option>Apple</option>
+        <option>Pear</option>
       </select>
     </div>
 
@@ -67,8 +67,8 @@
         <option>Estonian</option>
         <option>English</option>
         <option>Russian</option>
-        <option>Latin</option>
-        <option>Finnish</option>
+        <option>Spanish</option>
+        <option>German</option>
       </select>
     </div>
     <div class="mb-3">
@@ -78,4 +78,3 @@
     <input type="submit" class="btn btn-primary" value="Send">
     <button class="btn btn-primary">Send</button>
   </form>
-{% endblock %}
