@@ -1,4 +1,13 @@
 [
+    {
+    "id": 1,
+    "name": "Loki",
+    "birthyear": 2018,
+    "gender": "Male",
+    "color": "Multicolor",
+    "eyes": "Green",
+    "spayed": true
+  },
   {
     "id": 2,
     "name": "Joss",
@@ -7,14 +16,5 @@
     "color": "white/brown",
     "eyes": "Green",
     "spayed": true
-  },
-  {
-    "name": "545",
-    "birthyear": 555,
-    "gender": "Female",
-    "color": "dgdfg",
-    "eyes": "dfgdfg",
-    "spayed": false,
-    "id": 3
   }
 ]
